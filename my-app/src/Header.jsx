@@ -17,12 +17,21 @@ function increase() {
 
 //  --------------------------------------TIME DISPLAY---------------------------------------------
 
+let [time, updateTime] = useState()
 
-let [time, updateTime] = useState(new Date().getTime)
+let [time2, updateTime2] = useState()
 
 function getTime() {
-    updateTime(new Date().getTime)
+    updateTime(new Date().toLocaleTimeString())
 }
+
+function currentTime() {
+    updateTime2(new Date().toLocaleTimeString())
+}
+
+
+// dynamic time display
+setInterval(currentTime, 1000)
 
 
 return <header>
@@ -34,9 +43,9 @@ return <header>
 <button onClick={decrease}>decrease</button>
 
 <p>{time}</p> 
-<button onClick={getTime}>increase</button>
+<button onClick={getTime}>getTime</button>
 
-<p>{currentTime}</p> 
+<p>{time2}</p> 
 </header>
 
 }
