@@ -19,4 +19,4 @@ function App() {
     </div>
 }
 
-export default App //qsno
+export default App 
