@@ -17,35 +17,35 @@ function increase() {
 
 //  --------------------------------------TIME DISPLAY---------------------------------------------
 
-let [time, updateTime] = useState()
+// let [time, updateTime] = useState()
 
-let [time2, updateTime2] = useState()
+// let [time2, updateTime2] = useState()
 
-function getTime() {
-    updateTime(new Date().toLocaleTimeString())
-}
+// function getTime() {
+//     updateTime(new Date().toLocaleTimeString())
+// }
 
-function currentTime() {
-    updateTime2(new Date().toLocaleTimeString())
-}
+// function currentTime() {
+//     updateTime2(new Date().toLocaleTimeString())
+// }
 
 
 // dynamic time display
-setInterval(currentTime, 1000)
+// setInterval(currentTime, 1000)
 
 
 return <header>
 <h1>Keeper</h1>
 
 {/* messing with react state */}
-<p>{count}</p> 
+{/* <p>{count}</p> 
 <button onClick={increase}>increase</button>
 <button onClick={decrease}>decrease</button>
 
 <p>{time}</p> 
 <button onClick={getTime}>getTime</button>
 
-<p>{time2}</p> 
+<p>{time2}</p>  */}
 </header>
 
 }
