@@ -5,13 +5,13 @@ function Header() {
     // messing with reast state
     let [count, setCount] = useState(0)
 
-function decrease() {
-    setCount(count -= 1)
-}
+// function decrease() {
+//     setCount(count -= 1)
+// }
 
-function increase() {
-    setCount(count += 1)
-} // end of messing
+// function increase() {
+//     setCount(count += 1)
+// } // end of messing
 
 
 

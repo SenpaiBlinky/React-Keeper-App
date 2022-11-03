@@ -28,6 +28,12 @@ const notes = [
       title: "Big Idea",
       content:
         "Code more stuff ;)"
+    },
+    {
+      key: 6,
+      title: "Big Idea 2",
+      content:
+        "Code more stuff dude! ;)"
     }
   ];
 
